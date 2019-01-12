@@ -1,0 +1,20 @@
+{
+  "lsh_k":4,
+  "lsh_L":4,
+
+  "hyper_k":0,
+  "hyper_probes": 1280,
+  "hyper_M":50,
+
+  "init":"plusplus",
+  "update" :"kmeans",
+  "assignment":"lloyds",
+
+  "window":0.6,
+  "KClusters":5,
+  "maxIter":3,
+
+  "minEpsilon":-1.0
+
+
+}
