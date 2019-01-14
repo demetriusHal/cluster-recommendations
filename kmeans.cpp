@@ -502,7 +502,6 @@ void kmeans_cluster::flush_clusters() {
   }
 }
 
-#define __UNIT_MAIN_KMEANS__
 #ifdef __UNIT_MAIN_KMEANS__
 
 int main(int argc, char *argv[]) {
