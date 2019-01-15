@@ -5,6 +5,8 @@
 #include <iostream>
 #include <limits>
 
+#include "parser.h"
+
 
 
 class twitter_user {
@@ -12,10 +14,12 @@ class twitter_user {
   public:
 
 
-  twitter_user(const int& id, const int& ncryptos):known(ncryptos),scores(ncryptos), id(id) {
+  twitter_user(const uint64_t& id, const int& ncryptos):known(ncryptos),scores(ncryptos), id(id) {
     for (int i=0; i < ncryptos; i++)
       known[i] = false;
   }
+  
+
 
   void normalise();
 
@@ -30,7 +34,12 @@ class twitter_user {
   const uint64_t id;
 
   
+  point<double>* to_point() {
+    point<double>* pptr = new point<double>(id, scores);
+    return pptr;
+  }
 
+  
 
 };
 

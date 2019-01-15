@@ -44,7 +44,7 @@ std::vector<uint64_t>* kmeans_cluster::get_random_set(uint64_t npoints, uint64_t
       idxs[rnd] = i;
 
     }
-    delete idxs;
+    delete[] idxs;
   }
   else {
 
@@ -447,8 +447,7 @@ void kmeans_cluster::print_results(int complete, double time) {
   }
 }
 
-
-static kmeans_info parse_config(std::string file) {
+kmeans_info parse_config(std::string file) {
   kmeans_info kmi;
   Json::Value root;
   std::ifstream config(file, std::ifstream::binary);

@@ -14,7 +14,7 @@
 template <class T>
 struct point {
   std::vector<T> c;
-  int id;
+  uint64_t id;
 
   point(point<T> *p):id(p->id) {
     for (int i=0; i < p->c.size(); i++)
@@ -23,7 +23,15 @@ struct point {
   point() :id(0){
 
   }
+  point(uint64_t nid,std::vector<T>& v):c(v), id(nid){
+    ;
+  }
+  
 };
+
+template <class T>
+bool operator<(const point<T>& lhs, const point<T>& rhs) 
+{return false;}
 
 class inp_parser {
 

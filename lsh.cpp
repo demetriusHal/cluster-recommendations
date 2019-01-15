@@ -32,7 +32,9 @@ double angular_dist(const point<double>& p1, point<double>& p2) {
     r2 += p2.c[i]*p2.c[i];
   }
   s = s/sqrt(r1*r2);
-  return s;
+  if (r1 == 0 || r2 == 0)
+    return 1.0;
+  return 1.0-s;
 }
 
 static point<double>* exhaustive_search(

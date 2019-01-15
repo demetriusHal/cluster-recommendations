@@ -1,8 +1,12 @@
 CC=g++
 CFLAGS=-g3
 CLIBS=-ljsoncpp
+CLIBS1=-lm -ljsoncpp
 
-all:kmeans
+all:tweets
+
+tweets:lsh.cpp parser.cpp dolphinn.cpp kmeans.cpp tweets.cpp tsv_parser.cpp twitter_user.cpp
+	$(CC) $(CFLAGS)  lsh.cpp parser.cpp dolphinn.cpp kmeans.cpp tweets.cpp tsv_parser.cpp twitter_user.cpp -o tweets $(CLIBS1)
 
 kmeans:lsh.cpp parser.cpp dolphinn.cpp kmeans.cpp
 	$(CC) $(CFLAGS) lsh.cpp parser.cpp dolphinn.cpp kmeans.cpp -o kmeans $(CLIBS)
@@ -18,4 +22,4 @@ dolphinn:dolphinn.o parser.o lsh.o
 	g++ $(CFLAGS) -c -o $@ $<
 
 clean:
-	rm -f  kmeans kmeans.o dolphinn.o parser.o lsh.o
+	rm -f  tweets kmeans kmeans.o dolphinn.o parser.o lsh.o

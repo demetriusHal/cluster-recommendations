@@ -11,8 +11,8 @@
   "assignment":"lloyds",
 
   "window":0.6,
-  "KClusters":5,
-  "maxIter":3,
+  "KClusters":200,
+  "maxIter":10,
 
   "minEpsilon":-1.0
 

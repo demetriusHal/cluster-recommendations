@@ -9,7 +9,7 @@
 
 void twitter_user::normalise() {
   double sum = 0.0;
-  uint64_t count;
+  uint64_t count = 0;
   for (int i=0; i < scores.size(); i++) {
     if (known[i]) {
       sum += scores[i];
@@ -21,11 +21,9 @@ void twitter_user::normalise() {
   for (int i=0; i < scores.size(); i++) {
     if (known[i]) {
       scores[i] -= avg;
-      known[i] = true;
     } 
     else {
       scores[i] = 0.0;
-      known[i] = false;
     }
     
 

@@ -4,6 +4,7 @@
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>
+#include <set>
 
 #include <cmath>
 #include <climits>
@@ -95,6 +96,8 @@ class lsh_map {
     void smart_range(point<double>& centr,
       std::unordered_set<point<double>*>& set,
     std::unordered_map<point<double>*, double>& dists);
+
+    std::set<std::pair<double ,point<T>*>>* lookup_nearest(point<T>& p, int P); 
 
   private:
     //k hash function for g
@@ -245,7 +248,9 @@ template <class T>
 int64_t lsh_map<T>::gen_key(std::vector<T>* gv) {
   int64_t rv = 0;
   for (int i=0; i < lsh_k; i++)
-    rv += gv->at(i)*lvector[i];
+    rv += gv->at(i)*(1 << i);//lvector[i];
+  
+  return rv;
 }
 
 template <class T>
@@ -293,6 +298,45 @@ void lsh_map<T>::generate_new_functions() {
     }
   }
 
+}
+
+template <class T>
+std::set<std::pair<double ,point<T>*>>* lsh_map<T>::lookup_nearest(point<T>& p, int P) {
+
+  std::vector<T>* hash_value;
+  point<T>* cp;
+  std::set<std::pair<double ,point<T>*>>* tree = new std::set<std::pair<double ,point<T>*>>;
+
+
+
+  for (int i=0; i < lsh_L; i++) {
+    if (lsh_metric == m_euclidean)
+      hash_value = hash_point(p, i);
+    else
+      hash_value = angular_hash_point(p, i);
+
+    std::vector<mapped_info<T>>& v = this->stored_map[i][gen_key(hash_value)];
+    for (int j=0; j < v.size(); j++) {
+      if (*(v[j].gs) != *(hash_value))
+        continue;
+      cp = v[j].ptr;
+      double dist  = (lsh_metric == m_euclidean)?euclidean_dist(p, *cp):
+        angular_dist(p, *cp);
+
+     
+      if (tree->size() < P)
+        tree->insert(std::make_pair(-dist,v[j].ptr));
+      else if (-(tree->begin()->first) > dist) {
+        tree->erase(tree->begin());
+        tree->insert(std::make_pair(-dist,v[j].ptr));
+      }
+
+
+    }
+    delete hash_value;
+  }
+
+  return tree;
 }
 
 template <class T>

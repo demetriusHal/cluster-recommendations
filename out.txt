@@ -1,101 +1,518 @@
-`btc` `#btc` `$btc` `@btc` `bitcoin` `#bitcoin` `$bitcoin` 
-`eth` `#eth` `$eth` `@eth` `ethereum` `#ethereum` `$ethereum` 
-`powr` `#powr` `$powr` `@powr` `power ledger` `#powerledger` `$powerledger` `@powerledger` `power-ledger` `#power-ledger` `$power-ledger` 
-`gas` `#gas` `$gas` 
-`knc` `#knc` `$knc` `@knc` `kyber network` `#kybernetwork` `$kybernetwork` `@kybernetwork` `kyber-network` `#kyber-network` `$kyber-network` 
-`nxs` `#nxs` `$nxs` `@nxs` `nexus` `#nexus` `$nexus` 
-`lrc` `#lrc` `$lrc` `@lrc` `loopring` `#loopring` `$loopring` 
-`xzc` `#xzc` `$xzc` `@xzc` `zcoin` `#zcoin` `$zcoin` 
-`ela` `#ela` `$ela` `@ela` `elastos` `#elastos` `$elastos` 
-`etn` `#etn` `$etn` `@etn` `electroneum` `#electroneum` `$electroneum` 
-`btcp` `#btcp` `$btcp` `@btcp` `bitcoin private` `#bitcoinprivate` `$bitcoinprivate` `@bitcoinprivate` `bitcoin-private` `#bitcoin-private` `$bitcoin-private` 
-`pivx` `#pivx` `$pivx` 
-`theta` `#theta` `$theta` `@theta` `theta token` `#thetatoken` `$thetatoken` `@thetatoken` `theta-token` `#theta-token` `$theta-token` 
-`mco` `#mco` `$mco` `@mco` `crypto.com` `#crypto.com` `$crypto.com` `@crypto.com` `crypto-com` `#crypto-com` `$crypto-com` 
-`gxs` `#gxs` `$gxs` `@gxs` `gxchain` `#gxchain` `$gxchain` 
-`nxt` `#nxt` `$nxt` 
-`drgn` `#drgn` `$drgn` `@drgn` `dragonchain` `#dragonchain` `$dragonchain` 
-`cmt` `#cmt` `$cmt` `@cmt` `cybermiles` `#cybermiles` `$cybermiles` 
-`wax` `#wax` `$wax` 
-`xin` `#xin` `$xin` `@xin` `mixin` `#mixin` `$mixin` 
-`nas` `#nas` `$nas` `@nas` `nebulas` `#nebulas` `$nebulas` `@nebulas` `nebulas-token` `#nebulas-token` `$nebulas-token` 
-`dgd` `#dgd` `$dgd` `@dgd` `digixdao` `#digixdao` `$digixdao` 
-`mona` `#mona` `$mona` `@mona` `monacoin` `#monacoin` `$monacoin` 
-`bnt` `#bnt` `$bnt` `@bnt` `bancor` `#bancor` `$bancor` 
-`zen` `#zen` `$zen` `@zen` `horizen` `#horizen` `$horizen` `@horizen` `zencash` `#zencash` `$zencash` 
-`qash` `#qash` `$qash` 
-`mana` `#mana` `$mana` `@mana` `decentraland` `#decentraland` `$decentraland` 
-`ark` `#ark` `$ark` 
-`neo` `#neo` `$neo` 
-`xvg` `#xvg` `$xvg` `@xvg` `verge` `#verge` `$verge` 
-`pay` `#pay` `$pay` `@pay` `tenx` `#tenx` `$tenx` 
-`dcn` `#dcn` `$dcn` `@dcn` `dentacoin` `#dentacoin` `$dentacoin` 
-`fun` `#fun` `$fun` `@fun` `funfair` `#funfair` `$funfair` 
-`elf` `#elf` `$elf` `@elf` `aelf` `#aelf` `$aelf` 
-`xlm` `#xlm` `$xlm` `@xlm` `stellar` `#stellar` `$stellar` 
-`ltc` `#ltc` `$ltc` `@ltc` `litecoin` `#litecoin` `$litecoin` 
-`xrp` `#xrp` `$xrp` `@xrp` `ripple` `#ripple` `$ripple` 
-`kcs` `#kcs` `$kcs` `@kcs` `kucoin shares` `#kucoinshares` `$kucoinshares` `@kucoinshares` `kucoin-shares` `#kucoin-shares` `$kucoin-shares` 
-`hc` `#hc` `$hc` `@hc` `hypercash` `#hypercash` `$hypercash` 
-`rdd` `#rdd` `$rdd` `@rdd` `reddcoin` `#reddcoin` `$reddcoin` 
-`zrx` `#zrx` `$zrx` `@zrx` `0x` `#0x` `$0x` 
-`tusd` `#tusd` `$tusd` `@tusd` `trueusd` `#trueusd` `$trueusd` 
-`aion` `#aion` `$aion` 
-`ada` `#ada` `$ada` `@ada` `cardano` `#cardano` `$cardano` 
-`ht` `#ht` `$ht` `@ht` `huobi token` `#huobitoken` `$huobitoken` `@huobitoken` `huobi-token` `#huobi-token` `$huobi-token` 
-`trx` `#trx` `$trx` `@trx` `tron` `#tron` `$tron` 
-`omg` `#omg` `$omg` `@omg` `omisego` `#omisego` `$omisego` 
-`icx` `#icx` `$icx` `@icx` `icon` `#icon` `$icon` 
-`mith` `#mith` `$mith` `@mith` `mithril` `#mithril` `$mithril` 
-`drop` `#drop` `$drop` `@drop` `dropil` `#dropil` `$dropil` 
-`aoa` `#aoa` `$aoa` `@aoa` `aurora` `#aurora` `$aurora` 
-`ae` `#ae` `$ae` `@ae` `aeternity` `#aeternity` `$aeternity` 
-`dash` `#dash` `$dash` 
-`ardr` `#ardr` `$ardr` `@ardr` `ardor` `#ardor` `$ardor` 
-`miota` `#miota` `$miota` `@miota` `iota` `#iota` `$iota` 
-`hot` `#hot` `$hot` `@hot` `holo` `#holo` `$holo` 
-`dgb` `#dgb` `$dgb` `@dgb` `digibyte` `#digibyte` `$digibyte` 
-`cnx` `#cnx` `$cnx` `@cnx` `cryptonex` `#cryptonex` `$cryptonex` 
-`bnb` `#bnb` `$bnb` `@bnb` `binance coin` `#binancecoin` `$binancecoin` `@binancecoin` `binance-coin` `#binance-coin` `$binance-coin` 
-`doge` `#doge` `$doge` `@doge` `dogecoin` `#dogecoin` `$dogecoin` 
-`strat` `#strat` `$strat` `@strat` `stratis` `#stratis` `$stratis` 
-`eos` `#eos` `$eos` 
-`bch` `#bch` `$bch` `@bch` `bitcoin cash` `#bitcoincash` `$bitcoincash` `@bitcoincash` `bitcoin-cash` `#bitcoin-cash` `$bitcoin-cash` 
-`moac` `#moac` `$moac` 
-`dcr` `#dcr` `$dcr` `@dcr` `decred` `#decred` `$decred` 
-`xtz` `#xtz` `$xtz` `@xtz` `tezos` `#tezos` `$tezos` 
-`wan` `#wan` `$wan` `@wan` `wanchain` `#wanchain` `$wanchain` 
-`link` `#link` `$link` `@link` `chainlink` `#chainlink` `$chainlink` 
-`ppt` `#ppt` `$ppt` `@ppt` `populous` `#populous` `$populous` 
-`snt` `#snt` `$snt` `@snt` `status` `#status` `$status` 
-`nano` `#nano` `$nano` 
-`waves` `#waves` `$waves` 
-`bat` `#bat` `$bat` `@bat` `basic attention token` `#basicattentiontoken` `$basicattentiontoken` `@basicattentiontoken` `basic-attention-token` `#basic-attention-token` `$basic-attention-token` 
-`rep` `#rep` `$rep` `@rep` `augur` `#augur` `$augur` 
-`kmd` `#kmd` `$kmd` `@kmd` `komodo` `#komodo` `$komodo` 
-`zil` `#zil` `$zil` `@zil` `zilliqa` `#zilliqa` `$zilliqa` 
-`gnt` `#gnt` `$gnt` `@gnt` `golem` `#golem` `$golem` `@golem` `golem-network-tokens` `#golem-network-tokens` `$golem-network-tokens` 
-`bts` `#bts` `$bts` `@bts` `bitshares` `#bitshares` `$bitshares` 
-`sc` `#sc` `$sc` `@sc` `siacoin` `#siacoin` `$siacoin` 
-`steem` `#steem` `$steem` 
-`maid` `#maid` `$maid` `@maid` `maidsafecoin` `#maidsafecoin` `$maidsafecoin` 
-`vet` `#vet` `$vet` `@vet` `vechain` `#vechain` `$vechain` 
-`etc` `#etc` `$etc` `@etc` `ethereum classic` `#ethereumclassic` `$ethereumclassic` `@ethereumclassic` `ethereum-classic` `#ethereum-classic` `$ethereum-classic` 
-`iost` `#iost` `$iost` `@iost` `iostoken` `#iostoken` `$iostoken` 
-`wtc` `#wtc` `$wtc` `@wtc` `waltonchain` `#waltonchain` `$waltonchain` 
-`zec` `#zec` `$zec` `@zec` `zcash` `#zcash` `$zcash` 
-`rhoc` `#rhoc` `$rhoc` `@rhoc` `rchain` `#rchain` `$rchain` 
-`mkr` `#mkr` `$mkr` `@mkr` `maker` `#maker` `$maker` 
-`qtum` `#qtum` `$qtum` 
-`btg` `#btg` `$btg` `@btg` `bitcoin gold` `#bitcoingold` `$bitcoingold` `@bitcoingold` `bitcoin-gold` `#bitcoin-gold` `$bitcoin-gold` 
-`npxs` `#npxs` `$npxs` `@npxs` `pundi x` `#pundix` `$pundix` `@pundix` `pundi-x` `#pundi-x` `$pundi-x` 
-`lsk` `#lsk` `$lsk` `@lsk` `lisk` `#lisk` `$lisk` 
-`etp` `#etp` `$etp` `@etp` `metaverse etp` `#metaverseetp` `$metaverseetp` `@metaverseetp` `metaverse` `#metaverse` `$metaverse` 
-`xem` `#xem` `$xem` `@xem` `nem` `#nem` `$nem` 
-`ont` `#ont` `$ont` `@ont` `ontology` `#ontology` `$ontology` 
-`bcd` `#bcd` `$bcd` `@bcd` `bitcoin diamond` `#bitcoindiamond` `$bitcoindiamond` `@bitcoindiamond` `bitcoin-diamond` `#bitcoin-diamond` `$bitcoin-diamond` 
-`xmr` `#xmr` `$xmr` `@xmr` `monero` `#monero` `$monero` 
-`bcn` `#bcn` `$bcn` `@bcn` `bytecoin` `#bytecoin` `$bytecoin` `@bytecoin` `bytecoin-bcn` `#bytecoin-bcn` `$bytecoin-bcn` 
-`usdt` `#usdt` `$usdt` `@usdt` `tether` `#tether` `$tether` 
-`btm` `#btm` `$btm` `@btm` `bytom` `#bytom` `$bytom` 
-
+Ok
+Cosine LSH
+<u45557> eth eth eth eth eth 
+<u45554> drgn drgn drgn drgn drgn 
+<u45551> eth eth eth eth eth 
+<u45479> etn etn etn etn etn 
+<u45442> btc btc btc btc btc 
+<u45167> link link link link link 
+<u45091> xrp xrp xrp xrp xrp 
+<u45071> btc btc btc btc btc 
+<u45043> etc etc etc etc etc 
+<u44924> btc btc btc btc btc 
+<u44894> btc btc btc btc btc 
+<u44826> nxt nxt nxt nxt nxt 
+<u44654> eth eth eth eth eth 
+<u44647> btc btc btc btc btc 
+<u44445> icx icx icx icx icx 
+<u44262> link link link link link 
+<u43972> xrp xrp xrp xrp xrp 
+<u43953> nxt nxt nxt nxt nxt 
+<u43889> strat strat strat strat strat 
+<u43878> sc sc sc sc sc 
+<u43861> nxt nxt nxt nxt nxt 
+<u43798> sc sc sc sc sc 
+<u43794> hot hot hot hot hot 
+<u43763> nxt nxt nxt nxt nxt 
+<u43639> btc btc btc btc btc 
+<u43611> eos eos eos eos eos 
+<u43581> btc btc btc btc btc 
+<u43465> icx icx icx icx icx 
+<u43443> xrp xrp xrp xrp xrp 
+<u43399> icx icx icx icx icx 
+<u43387> nxt nxt nxt nxt nxt 
+<u43323> icx icx icx icx icx 
+<u43296> xrp xrp xrp xrp xrp 
+<u43281> eth eth eth eth eth 
+<u43245> rhoc rhoc rhoc rhoc rhoc 
+<u43206> btc btc btc btc btc 
+<u43159> eth eth eth eth eth 
+<u43102> pay pay pay pay pay 
+<u43070> vet vet vet vet vet 
+<u43051> nxt nxt nxt nxt nxt 
+<u43021> btc btc btc btc btc 
+<u43004> steem steem steem steem steem 
+<u42943> btc btc btc btc btc 
+<u42941> btc btc btc btc btc 
+<u42883> zec zec zec zec zec 
+<u42869> link link link link link 
+<u42848> xmr xmr xmr xmr xmr 
+<u42837> rep rep rep rep rep 
+<u42761> btc btc btc btc btc 
+<u42737> btc btc btc btc btc 
+<u42721> waves waves waves waves waves 
+<u42685> btc btc btc btc btc 
+<u42655> sc sc sc sc sc 
+<u42563> link link link link link 
+<u42562> eth eth eth eth eth 
+<u42544> eth eth eth eth eth 
+<u42519> maid maid maid maid maid 
+<u42473> btc btc btc btc btc 
+<u42416> btc btc btc btc btc 
+<u42407> maid maid maid maid maid 
+<u42321> npxs npxs npxs npxs npxs 
+<u42259> btc btc btc btc btc 
+<u42198> btc btc btc btc btc 
+<u42173> fun fun fun fun fun 
+<u42059> icx icx icx icx icx 
+<u42041> btc btc btc btc btc 
+<u42033> eth eth eth eth eth 
+<u41958> btc btc btc btc btc 
+<u41957> btc btc btc btc btc 
+<u41896> ltc ltc ltc ltc ltc 
+<u41782> ont ont ont ont ont 
+<u41760> xrp xrp xrp xrp xrp 
+<u41726> btc btc btc btc btc 
+<u41555> btc btc btc btc btc 
+<u41540> btc btc btc btc btc 
+<u41529> fun fun fun fun fun 
+<u41525> ada ada ada ada ada 
+<u41451> btc btc btc btc btc 
+<u41449> btc btc btc btc btc 
+<u41431> icx icx icx icx icx 
+<u41398> xin xin xin xin xin 
+<u41343> btc btc btc btc btc 
+<u41292> btc btc btc btc btc 
+<u41280> btc btc btc btc btc 
+<u41266> btc btc btc btc btc 
+<u41264> btc btc btc btc btc 
+<u41218> fun fun fun fun fun 
+<u41186> btc btc btc btc btc 
+<u41174> btc btc btc btc btc 
+<u41123> btc btc btc btc btc 
+<u41015> btc btc btc btc btc 
+<u40870> nxt nxt nxt nxt nxt 
+<u40868> xrp xrp xrp xrp xrp 
+<u40850> btc btc btc btc btc 
+<u40840> btc btc btc btc btc 
+<u40770> xrp xrp xrp xrp xrp 
+<u40765> xin xin xin xin xin 
+<u40761> btc btc btc btc btc 
+<u40674> eth eth eth eth eth 
+<u40652> btc btc btc btc btc 
+<u40478> xrp xrp xrp xrp xrp 
+<u40421> nano nano nano nano nano 
+<u40361> btc btc btc btc btc 
+<u40348> btc btc btc btc btc 
+<u40347> btc btc btc btc btc 
+<u40324> btc btc btc btc btc 
+<u40282> ark ark ark ark ark 
+<u40271> cmt cmt cmt cmt cmt 
+<u40241> btc btc btc btc btc 
+<u40219> btc btc btc btc btc 
+<u39962> eth eth eth eth eth 
+<u39891> btc btc btc btc btc 
+<u39890> btc btc btc btc btc 
+<u39784> etn etn etn etn etn 
+<u39727> btc btc btc btc btc 
+<u39712> ae ae ae ae ae 
+<u39657> etn etn etn etn etn 
+<u39598> wtc wtc wtc wtc wtc 
+<u39536> eth eth eth eth eth 
+<u39505> btc btc btc btc btc 
+<u39468> btc btc btc btc btc 
+<u39410> zen zen zen zen zen 
+<u39291> btc btc btc btc btc 
+<u39249> btc btc btc btc btc 
+<u39138> eos eos eos eos eos 
+<u39110> btc btc btc btc btc 
+<u39088> btc btc btc btc btc 
+<u39065> bts bts bts bts bts 
+<u38909> dash dash dash dash dash 
+<u38881> xrp xrp xrp xrp xrp 
+<u38868> btc btc btc btc btc 
+<u38808> kcs kcs kcs kcs kcs 
+<u38790> btc btc btc btc btc 
+<u38719> btc btc btc btc btc 
+<u38671> vet vet vet vet vet 
+<u38617> xrp xrp xrp xrp xrp 
+<u38558> maid maid maid maid maid 
+<u38557> ltc lsk wax strat bts 
+<u38504> ae ae ae ae ae 
+<u38403> link link link link link 
+<u38391> dgd dgd dgd dgd dgd 
+<u38388> nxt nxt nxt nxt nxt 
+<u38352> eth eth eth eth eth 
+<u38251> btc btc btc btc btc 
+<u38249> btc btc btc btc btc 
+<u38247> btc btc btc btc btc 
+<u38199> xtz xtz xtz xtz xtz 
+<u38188> sc sc sc sc sc 
+<u38176> hot hot hot hot hot 
+<u38153> pay pay pay pay pay 
+<u38152> bcd bcd bcd bcd bcd 
+<u38129> etn etn etn etn etn 
+<u37969> btc btc btc btc btc 
+<u37906> fun fun fun fun fun 
+<u44326> xrp xrp xrp xrp xrp 
+<u37899> iost iost iost iost iost 
+<u37874> knc knc knc knc knc 
+<u37873> eth eth eth eth eth 
+<u37867> btc btc btc btc btc 
+<u37822> icx icx icx icx icx 
+<u37772> etn etn etn etn etn 
+<u37743> btc btc btc btc btc 
+<u37692> dcr dcr dcr dcr dcr 
+<u37649> etn etn etn etn etn 
+<u37586> cnx cnx cnx cnx cnx 
+<u37571> xvg xvg xvg xvg xvg 
+<u37552> pay pay pay pay pay 
+<u37533> nxt nxt nxt nxt nxt 
+<u37493> btc btc btc btc btc 
+<u37423> mona mona mona mona mona 
+<u37407> trx trx trx trx trx 
+<u37294> mco mco mco mco mco 
+<u37271> btc btc btc btc btc 
+<u37238> btc btc btc btc btc 
+<u37174> nxt nxt nxt nxt nxt 
+<u37172> nxt nxt nxt nxt nxt 
+<u37158> bnb bnb bnb bnb bnb 
+<u37125> btc btc btc btc btc 
+<u37081> sc sc sc sc sc 
+<u37076> tusd tusd tusd tusd tusd 
+<u37071> ht ht ht ht ht 
+<u43488> btc btc btc btc btc 
+<u37061> zen zen zen zen zen 
+<u9990> btc btc btc btc btc 
+<u9981> btc btc btc btc btc 
+<u6670> xrp xrp xrp xrp xrp 
+<u13088> lrc lrc lrc lrc lrc 
+<u22715> bts bts bts bts bts 
+<u9829> eos eos eos eos eos 
+<u6620> miota ltc mkr xvg xrp 
+<u9746> ltc eos miota usdt mkr 
+<u119> dash pivx btc btc btc 
+<u9733> wan xlm strat xrp btc 
+<u3315> trx trx trx trx trx 
+<u9727> eth eth eth eth eth 
+<u100> xlm pivx dash btc btc 
+<u9661> xtz xtz xtz xtz xtz 
+<u16079> hot hot hot hot hot 
+<u30> waves wan pivx dash btc 
+<u3214> btg btg btg btg btg 
+<u16050> icx icx icx icx icx 
+<u19244> kmd kmd kmd kmd kmd 
+<u9592> xrp xrp xrp xrp xrp 
+<u12801> hot hot hot hot hot 
+<u9587> btc btc btc btc btc 
+<u28841> trx trx trx trx trx 
+<u9539> btc btc btc btc btc 
+<u9530> btc btc btc btc btc 
+<u19157> eth eth eth eth eth 
+<u9520> xtz xtz xtz xtz xtz 
+<u3102> btc btc btc btc btc 
+<u22356> strat strat strat strat strat 
+<u9496> link link link link link 
+<u19123> link link link link link 
+<u9479> snt snt snt snt snt 
+<u3028> btc btc btc btc btc 
+<u31909> btc btc btc btc btc 
+<u9427> btc btc btc btc btc 
+<u38335> btc btc btc btc btc 
+<u19054> eth eth eth eth eth 
+<u9414> xrp xrp xrp xrp xrp 
+<u9312> link link link link link 
+<u9289> eth eth eth eth eth 
+<u9282> btc btc btc btc btc 
+<u6073> btc btc btc btc btc 
+<u22118> xrp xrp xrp xrp xrp 
+<u9268> btc btc btc btc btc 
+<u9261> xrp xrp xrp xrp xrp 
+<u12470> xrp xrp xrp xrp xrp 
+<u25306> btc btc btc btc btc 
+<u9255> btc btc btc btc btc 
+<u9250> eth eth eth eth eth 
+<u9231> btc btc btc btc btc 
+<u9223> btc btc btc btc btc 
+<u34940> ardr ardr ardr ardr ardr 
+<u2805> trx trx trx trx trx 
+<u22067> btc btc btc btc btc 
+<u9213> btc btc btc btc btc 
+<u9207> btc btc btc btc btc 
+<u18834> xrp xrp xrp xrp xrp 
+<u9191> link link link link link 
+<u31654> btc btc btc btc btc 
+<u9175> btc btc btc btc btc 
+<u9166> btc btc btc btc btc 
+<u5957> xrp xrp xrp xrp xrp 
+<u9165> btc btc btc btc btc 
+<u5956> eth eth eth eth eth 
+<u9139> btc btc btc btc btc 
+<u31576> btc btc btc btc btc 
+<u9111> btc btc btc btc btc 
+<u9092> etn etn etn etn etn 
+<u2598> bch bch bch bch bch 
+<u8987> link link link link link 
+<u8927> waves waves waves waves waves 
+<u8918> btc btc btc btc btc 
+<u8913> eos eos eos eos eos 
+<u8901> btc btc btc btc btc 
+<u8888> zen zen zen zen zen 
+<u31351> btc btc btc btc btc 
+<u40993> tusd tusd tusd tusd tusd 
+<u8858> btc btc btc btc btc 
+<u18485> ht ht ht ht ht 
+<u8852> zil zil zil zil zil 
+<u8842> btc btc btc btc btc 
+<u2424> zen zen zen zen zen 
+<u8835> btc btc btc btc btc 
+<u8819> btc btc btc btc btc 
+<u28073> ada ada ada ada ada 
+<u40950> eth eth eth eth eth 
+<u8815> btc btc btc btc btc 
+<u2397> nxt nxt nxt nxt nxt 
+<u28069> ltc ltc ltc ltc ltc 
+<u8791> xlm xlm xlm xlm xlm 
+<u8754> kmd kmd kmd kmd kmd 
+<u24799> rhoc rhoc rhoc rhoc rhoc 
+<u5518> dash dash dash dash dash 
+<u2309> xin xin xin xin xin 
+<u8725> btc btc btc btc btc 
+<u11934> link link link link link 
+<u18352> xrp xrp xrp xrp xrp 
+<u8723> btc btc btc btc btc 
+<u15141> zen zen zen zen zen 
+<u8654> btc btc btc btc btc 
+<u5430> zen zen zen zen zen 
+<u2221> btc btc btc btc btc 
+<u21475> btc btc btc btc btc 
+<u31102> btc btc btc btc btc 
+<u8597> xrp xrp xrp xrp xrp 
+<u15015> xrp xrp xrp xrp xrp 
+<u8572> btc btc btc btc btc 
+<u40689> neo neo neo neo neo 
+<u21408> btc btc btc btc btc 
+<u8554> btc btc btc btc btc 
+<u8537> xin xin xin xin xin 
+<u18164> eth eth eth eth eth 
+<u21364> doge doge doge doge doge 
+<u8513> btc btc btc btc btc 
+<u21349> btc btc btc btc btc 
+<u8509> btc btc btc btc btc 
+<u8481> xin xin xin xin xin 
+<u40615> wan wan wan wan wan 
+<u8480> link link link link link 
+<u8461> btc btc btc btc btc 
+<u5252> btc btc btc btc btc 
+<u11670> eos eos eos eos eos 
+<u8417> miota ltc mkr xvg xrp 
+<u1999> btc btc btc btc btc 
+<u13017> icx icx icx icx icx 
+<u24360> btc btc btc btc btc 
+<u8310> btc btc btc btc btc 
+<u8284> btc xem link vet eth 
+<u1866> btc btc btc btc btc 
+<u9749> etn etn etn etn etn 
+<u3331> ada ada ada ada ada 
+<u8256> steem steem steem steem steem 
+<u5046> btc btc btc btc btc 
+<u14673> btc btc btc btc btc 
+<u8218> eth eth eth eth eth 
+<u8162> btc btc btc btc btc 
+<u1744> ltc miota usdt xvg mona 
+<u8154> ada ada ada ada ada 
+<u30617> btc btc btc btc btc 
+<u24179> icx icx icx icx icx 
+<u8122> btc btc btc btc btc 
+<u11331> trx trx trx trx trx 
+<u33794> nano nano nano nano nano 
+<u8093> trx trx trx trx trx 
+<u8062> knc knc knc knc knc 
+<u4853> btc btc btc btc btc 
+<u1644> eth eth eth eth eth 
+<u8049> xrp xrp xrp xrp xrp 
+<u8047> ltc dash eos miota usdt 
+<u4838> btc bch waves wan xem 
+<u8042> btc btc btc btc btc 
+<u9518> zrx zrx zrx zrx zrx 
+<u22354> neo neo neo neo neo 
+<u8025> btc btc btc btc btc 
+<u7984> btc btc btc btc btc 
+<u14402> link link link link link 
+<u7947> btc btc btc btc btc 
+<u4738> btc btc btc btc btc 
+<u1529> btc btc btc btc btc 
+<u7927> btg btg btg btg btg 
+<u7898> link link link link link 
+<u7873> eth eth eth eth eth 
+<u9321> eth eth eth eth eth 
+<u7828> xrp xrp xrp xrp xrp 
+<u33500> iost iost iost iost iost 
+<u7826> btc btc btc btc btc 
+<u17426> eth eth eth eth eth 
+<u43148> btc btc btc btc btc 
+<u4586> xrp xrp xrp xrp xrp 
+<u17422> btc btc btc btc btc 
+<u7759> maid maid maid maid maid 
+<u9246> btc btc btc btc btc 
+<u7753> hot hot hot hot hot 
+<u4544> xrp xrp xrp xrp xrp 
+<u7741> icx icx icx icx icx 
+<u4532> btc btc btc btc btc 
+<u14159> btc btc btc btc btc 
+<u7709> mco mco mco mco mco 
+<u1291> xrp xrp xrp xrp xrp 
+<u20545> btc btc btc btc btc 
+<u17330> xrp xrp xrp xrp xrp 
+<u23670> btc btc btc btc btc 
+<u30088> fun fun fun fun fun 
+<u7586> btc btc btc btc btc 
+<u1158> eos eos eos eos eos 
+<u7478> eth eth eth eth eth 
+<u33150> btc btc btc btc btc 
+<u7442> btc btc btc btc btc 
+<u42795> waves waves waves waves waves 
+<u4233> btc btc btc btc btc 
+<u20278> btc btc btc btc btc 
+<u29905> link link link link link 
+<u7393> btc btc btc btc btc 
+<u975> link link link link link 
+<u7388> ae ae ae ae ae 
+<u4179> btc xrp pay usdt neo 
+<u23433> btc btc btc btc btc 
+<u7295> xrp xrp xrp xrp xrp 
+<u855> eos trx waves ont xrp 
+<u4047> pivx pivx pivx pivx pivx 
+<u7255> btc btc btc btc btc 
+<u7251> btc btc btc btc btc 
+<u39374> btc btc btc btc btc 
+<u7239> xrp eos vet ht xzc 
+<u7238> pivx dash btc btc btc 
+<u13656> btc btc btc btc btc 
+<u7236> eth eth eth eth eth 
+<u39341> btc btc btc btc btc 
+<u7206> btc btc btc btc btc 
+<u10415> eth eth eth eth eth 
+<u7190> btc btc btc btc btc 
+<u16785> eth eth eth eth eth 
+<u26412> btc btc btc btc btc 
+<u7131> drop drop drop drop drop 
+<u13549> rep rep rep rep rep 
+<u19967> btc btc btc btc btc 
+<u29594> zen zen zen zen zen 
+<u7106> xrp xrp xrp xrp xrp 
+<u7089> xrp xrp xrp xrp xrp 
+<u3880> btc btc btc btc btc 
+<u42163> sc sc sc sc sc 
+<u10028> btc btc btc btc btc 
+<u8534> btc btc btc btc btc 
+<u2116> ardr ardr ardr ardr ardr 
+<u7041> ltc ltc ltc ltc ltc 
+<u13459> bcn bcn bcn bcn bcn 
+<u7032> btc btc btc btc btc 
+<u8522> btc btc btc btc btc 
+<u37448> trx trx trx trx trx 
+<u5313> btc btc btc btc btc 
+<u2104> ltc btc eos vet bch 
+<u8505> xrp xrp xrp xrp xrp 
+<u21341> btc btc btc btc btc 
+<u7012> btc btc btc btc btc 
+<u23057> btc btc btc btc btc 
+<u7005> btc btc btc btc btc 
+<u9986> xin xin xin xin xin 
+<u359> neo neo neo neo neo 
+<u13195> eth eth eth eth eth 
+<u13338> waves waves waves waves waves 
+<u6915> fun fun fun fun fun 
+<u6896> miota ltc mkr xvg xrp 
+<u9870> eth eth eth eth eth 
+<u22929> mco mco mco mco mco 
+<u6871> btc btc btc btc btc 
+<u19707> btc btc btc btc btc 
+<u6863> link link link link link 
+<u445> rdd rdd rdd rdd rdd 
+<u6851> btc btc btc btc btc 
+<u6850> btc btc btc btc btc 
+<u432> xrp xrp xrp xrp xrp 
+<u6846> btc btc btc btc btc 
+<u26095> btc btc btc btc btc 
+<u38972> btc btc btc btc btc 
+<u6837> btc btc btc btc btc 
+<u10046> zen zen zen zen zen 
+<u416> btc btc btc btc btc 
+<u3625> btc btc btc btc btc 
+<u22879> mco mco mco mco mco 
+<u35715> btc btc btc btc btc 
+<u6826> btc btc btc btc btc 
+<u6821> btc btc btc btc btc 
+<u38931> vet vet vet vet vet 
+<u6796> btc btc btc btc btc 
+<u378> btc btc btc btc btc 
+<u6792> btc btc btc btc btc 
+<u6694> btc trx xrp usdt neo 
+<u3485> btc btc btc btc btc 
+<u9895> pay pay pay pay pay 
+<u9842> btc btc btc btc btc 
+<u45204> xrp xrp xrp xrp xrp 
+<u215> btc btc btc btc btc 
+<u214> pivx dash btc btc btc 
+<u6399> btc btc btc btc btc 
+<u6622> btc btc btc btc btc 
+<u201> xlm pivx dash btc btc 
+<u6618> omg omg omg omg omg 
+<u185> btc btc btc btc btc 
+<u6542> btc btc btc btc btc 
+<u8004> btc btc btc btc btc 
+<u1586> eth eth eth eth eth 
+<u6511> ardr ardr ardr ardr ardr 
+<u25765> eth eth eth eth eth 
+<u3072> eth eth eth eth eth 
+<u86> pivx dash btc btc btc 
+<u16131> btc btc btc btc btc 
+<u6483> snt snt snt snt snt 
+<u6433> xrp ltc eos eth mkr 
+<u15> btc btc btc btc btc 
+<u9400> btc btc btc btc btc 
+<u25445> icx icx icx icx icx 
+<u7907> bch bch bch bch bch 
+<u1489> btc btc btc btc btc 
+<u17534> btc btc btc btc btc 
+<u6414> eth eth eth eth eth 
+<u12832> link link link link link 
+<u6391> trx trx trx trx trx 
+<u6386> btc btc btc btc btc 
+<u41739> btc btc btc btc btc 
+<u3177> sc sc sc sc sc 
+<u9334> xrp xrp xrp xrp xrp 
+<u18961> zrx zrx zrx zrx zrx 
+<u12766> eth eth eth eth eth 
+<u7800> btc btc btc btc btc 
+<u6307> btc btc btc btc btc 
+<u6298> bch bch bch bch bch 
+<u3089> xrp xrp xrp xrp xrp 
+<u6289> neo neo neo neo neo 
+<u17375> vet vet vet vet vet 
+<u12673> hot hot hot hot hot 
+<u6188> btc btc btc btc btc 
+<u6154> vet vet vet vet vet 
+<u6140> btc btc btc btc btc 
+<u9114> btc btc btc btc btc 
+<u6128> btc btc btc btc btc 
+<u6122> btc btc btc btc btc 
+<u2913> btc btc btc btc btc 
+<u6108> fun fun fun fun fun 
+<u6094> miota dash xin xrp link 
+<u44638> btc btc btc btc btc 
+<u18930> btc btc btc btc btc 
+<u9064> zrx zrx zrx zrx zrx 
+<u12273> eth eth eth eth eth 
+<u6078> strat strat strat strat strat 
+<u9287> eth eth eth eth eth 
+<u6061> xrp mona waves etp cmt 
+<u22106> ardr ardr ardr ardr ardr 
+<u41378> btc btc btc btc btc 
+<u28524> hot hot hot hot hot 
+<u7529> ada ada ada ada ada 
+<u6036> waves waves waves waves waves 
+<u15663> dgb dgb dgb dgb dgb 
+<u6020> pay pay pay pay pay 

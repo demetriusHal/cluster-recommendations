@@ -90,3 +90,6 @@ class kmeans_cluster {
 
 
 };
+
+
+kmeans_info parse_config(std::string file);

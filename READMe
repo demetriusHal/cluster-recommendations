@@ -1,0 +1,22 @@
+README
+
+
+1.
+requirements:
+libjsoncpp lm
+
+
+2.
+Code organisation
+
+class twitter_user (similar to point) holds ratings vector
+class tweets  :
+  contains all the maps , vectors
+
+  first all the data, the lexicon, the term -> crypto mappings
+  and the tweets are proccessed by the tweets class
+  then we have 3 options
+  1: run_lsh , which runs the usual lsh neighbours and top 5 currencies UJ
+  2: run_clustering, which runs the top 2 cryptos using CJ
+  3: run_user_clustering, which does the same as the 1st but doing clustering
+    instead of lsh buckets
