@@ -30,7 +30,6 @@ void tsv_parser::parse_file(std::string filename) {
   
 }
 
-#define __UNIT_MAIN__
 #ifdef __UNIT_MAIN__
 
 #include <iostream>
